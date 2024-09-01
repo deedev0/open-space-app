@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "e2e-open": "cypress open",
     "e2e": "cypress run",
+    "e2e-open": "cypress open",
     "ci:test": "vitest --no-watch && start-server-and-test dev http://localhost:5173 e2e"
   },
   "dependencies": {
