@@ -10,7 +10,7 @@
     "test": "vitest",
     "e2e-open": "cypress open",
     "e2e": "cypress run",
-    "ci:test": "vitest --no-watch && start-server-and-test dev http://0.0.0.0:5173 e2e"
+    "ci:test": "vitest --no-watch && start-server-and-test dev http://localhost:5173 e2e"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
