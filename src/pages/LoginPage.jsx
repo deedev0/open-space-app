@@ -26,7 +26,7 @@ function LoginPage() {
             <article className="login-page__main">
                 <h2>
                     See <strong>The World</strong>, <br />
-                    Through Open Space.
+                    Through Open Space Apps.
                 </h2>
 
                 <LoginInput login={onLogin} />
